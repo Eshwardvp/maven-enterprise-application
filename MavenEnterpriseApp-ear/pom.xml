@@ -3,10 +3,10 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
         <artifactId>maven-enterprise-application</artifactId>
-        <groupId>com.mt</groupId>
+        <groupId>com.et</groupId>
         <version>1.0</version>
     </parent>
-  <groupId>com.mt</groupId>
+  <groupId>com.et</groupId>
   <artifactId>MavenEnterpriseApp-ear</artifactId>
   <packaging>ear</packaging>
   <version>1.0</version>
@@ -18,7 +18,7 @@
   </build>
     <dependencies>
         <dependency>
-            <groupId>com.mt</groupId>
+            <groupId>com.et</groupId>
             <artifactId>MavenEnterpriseApp-web</artifactId>
             <version>1.0</version>
             <type>war</type>

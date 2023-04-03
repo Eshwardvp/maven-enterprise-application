@@ -5,22 +5,22 @@
 
 	<parent>
 		<artifactId>maven-enterprise-application</artifactId>
-		<groupId>com.mt</groupId>
+		<groupId>com.et</groupId>
 		<version>1.0</version>
 	</parent>
 
-	<groupId>com.mt</groupId>
+	<groupId>com.et</groupId>
 	<artifactId>MavenEnterpriseApp-web</artifactId>
 	<packaging>war</packaging>
 	<version>1.0</version>
 
 	<name>MavenEnterpriseApplication</name>
-	<url>http://mithuntechnologies.com</url>
+
 	
 	<description>Maven Enterprise Project</description>
 
 	<organization>
-		<name>Mithun Technologies</name>
+		<name>DVP Technologies</name>
 		<url>http://mithuntechnologies.com/</url>
 	</organization>
 
@@ -95,13 +95,13 @@
 	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
-	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://localhost:8085/mithuntechnologies/repository/flipkart-releases/</url>
+	      <name>DVP Releases Nexus Repository</name>
+	      <url>http://localhost:8085/dvptechnologies/repository/flipkart-releases/</url>
 	    </repository>
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://localhost:8085/mithuntechnologies/repository/flipkart-snapshot/</url>
+	      <name>DVP Technologies Snapshot Nexus Repository </name>
+	      <url>http://localhost:8085/dvptechnologies/repository/flipkart-snapshot/</url>
 	    </snapshotRepository>
 	</distributionManagement>
 	

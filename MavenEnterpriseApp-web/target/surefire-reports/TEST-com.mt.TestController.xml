@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.mt.TestController" time="0.731" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Eswar Reddy K\Desktop\maven-enterprise-application\MavenEnterpriseApp-web\target\test-classes;C:\Users\Eswar Reddy K\Desktop\maven-enterprise-application\MavenEnterpriseApp-web\target\classes;C:\Users\Eswar Reddy K\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Eswar Reddy K\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Eswar Reddy K\.m2\repository\org\springframework\spring-test\3.2.3.RELEASE\spring-test-3.2.3.RELEASE.jar;C:\Users\Eswar Reddy K\.m2\repository\org\mockito\mockito-core\1.9.5\mockito-core-1.9.5.jar;C:\Users\Eswar Reddy K\.m2\repository\org\objenesis\objenesis\1.0\objenesis-1.0.jar;C:\Users\Eswar Reddy K\.m2\repository\org\springframework\spring-core\5.0.2.RELEASE\spring-core-5.0.2.RELEASE.jar;C:\Users\Eswar Reddy K\.m2\repository\org\springframework\spring-jcl\5.0.2.RELEASE\spring-jcl-5.0.2.RELEASE.jar;C:\Users\Eswar Reddy K\.m2\repository\org\springframework\spring-web\5.0.2.RELEASE\spring-web-5.0.2.RELEASE.jar;C:\Users\Eswar Reddy K\.m2\repository\org\springframework\spring-beans\5.0.2.RELEASE\spring-beans-5.0.2.RELEASE.jar;C:\Users\Eswar Reddy K\.m2\repository\org\springframework\spring-webmvc\5.0.2.RELEASE\spring-webmvc-5.0.2.RELEASE.jar;C:\Users\Eswar Reddy K\.m2\repository\org\springframework\spring-aop\5.0.2.RELEASE\spring-aop-5.0.2.RELEASE.jar;C:\Users\Eswar Reddy K\.m2\repository\org\springframework\spring-expression\5.0.2.RELEASE\spring-expression-5.0.2.RELEASE.jar;C:\Users\Eswar Reddy K\.m2\repository\org\springframework\spring-context\5.0.2.RELEASE\spring-context-5.0.2.RELEASE.jar;C:\Users\Eswar Reddy K\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;"/>
+    <property name="java.vm.vendor" value="Red Hat, Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://access.redhat.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\RedHat\java-11-openjdk-11.0.18-1\bin"/>
+    <property name="sun.java.command" value="C:\Users\Eswar Reddy K\AppData\Local\Temp\surefire14796462904569820306\surefirebooter-20230403092752535_3.jar C:\Users\Eswar Reddy K\AppData\Local\Temp\surefire14796462904569820306 2023-04-03T09-27-52_128-jvmRun1 surefire-20230403092752535_1tmp surefire_0-20230403092752535_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Eswar Reddy K\Desktop\maven-enterprise-application\MavenEnterpriseApp-web\target\test-classes;C:\Users\Eswar Reddy K\Desktop\maven-enterprise-application\MavenEnterpriseApp-web\target\classes;C:\Users\Eswar Reddy K\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Eswar Reddy K\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Eswar Reddy K\.m2\repository\org\springframework\spring-test\3.2.3.RELEASE\spring-test-3.2.3.RELEASE.jar;C:\Users\Eswar Reddy K\.m2\repository\org\mockito\mockito-core\1.9.5\mockito-core-1.9.5.jar;C:\Users\Eswar Reddy K\.m2\repository\org\objenesis\objenesis\1.0\objenesis-1.0.jar;C:\Users\Eswar Reddy K\.m2\repository\org\springframework\spring-core\5.0.2.RELEASE\spring-core-5.0.2.RELEASE.jar;C:\Users\Eswar Reddy K\.m2\repository\org\springframework\spring-jcl\5.0.2.RELEASE\spring-jcl-5.0.2.RELEASE.jar;C:\Users\Eswar Reddy K\.m2\repository\org\springframework\spring-web\5.0.2.RELEASE\spring-web-5.0.2.RELEASE.jar;C:\Users\Eswar Reddy K\.m2\repository\org\springframework\spring-beans\5.0.2.RELEASE\spring-beans-5.0.2.RELEASE.jar;C:\Users\Eswar Reddy K\.m2\repository\org\springframework\spring-webmvc\5.0.2.RELEASE\spring-webmvc-5.0.2.RELEASE.jar;C:\Users\Eswar Reddy K\.m2\repository\org\springframework\spring-aop\5.0.2.RELEASE\spring-aop-5.0.2.RELEASE.jar;C:\Users\Eswar Reddy K\.m2\repository\org\springframework\spring-expression\5.0.2.RELEASE\spring-expression-5.0.2.RELEASE.jar;C:\Users\Eswar Reddy K\.m2\repository\org\springframework\spring-context\5.0.2.RELEASE\spring-context-5.0.2.RELEASE.jar;C:\Users\Eswar Reddy K\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Eswar Reddy K"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-01-17"/>
+    <property name="java.home" value="C:\Program Files\RedHat\java-11-openjdk-11.0.18-1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Eswar Reddy K\Desktop\maven-enterprise-application\MavenEnterpriseApp-web"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Eswar Reddy K\AppData\Local\Temp\surefire14796462904569820306\surefirebooter-20230403092752535_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.18+10-LTS"/>
+    <property name="user.name" value="Eswar Reddy K"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="(Red_Hat-11.0.18+10-1)"/>
+    <property name="localRepository" value="C:\Users\Eswar Reddy K\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugzilla.redhat.com/enter_bug.cgi"/>
+    <property name="java.io.tmpdir" value="C:\Users\ESWARR~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.18"/>
+    <property name="user.dir" value="C:\Users\Eswar Reddy K\Desktop\maven-enterprise-application\MavenEnterpriseApp-web"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\RedHat\java-11-openjdk-11.0.18-1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\Eswar Reddy K\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Eswar Reddy K\bin;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Users\Eswar Reddy K\Downloads\terraform_1.3.7_windows_amd64;C:\ProgramData\chocolatey\bin;C:\Program Files\PowerShell\7;C:\Program Files\nodejs;C:\Program Files\RedHat\java-11-openjdk-11.0.18-1\bin;%MAVEN_HOME%\bin;C:\Users\Eswar Reddy K\AppData\Local\Microsoft\WindowsApps;C:\Users\Eswar Reddy K\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Eswar Reddy K\AppData\Roaming\npm;C:\Users\Eswar Reddy K\Downloads\apache-maven-3.9.1-bin\apache-maven-3.9.1\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Red Hat, Inc."/>
+    <property name="java.vm.version" value="11.0.18+10-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="testCreateSignupFormInvalidUser" classname="com.mt.TestController" time="0.64">
+    <system-err><![CDATA[Apr 03, 2023 9:27:53 AM org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry register
+INFO: Mapped "{[/],methods=[GET]}" onto public java.lang.String com.mt.HelloWorldController.hello(org.springframework.ui.ModelMap)
+Apr 03, 2023 9:27:53 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter initControllerAdviceCache
+INFO: Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@13c9d689
+Apr 03, 2023 9:27:53 AM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring FrameworkServlet ''
+Apr 03, 2023 9:27:53 AM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: FrameworkServlet '': initialization started
+Apr 03, 2023 9:27:53 AM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: FrameworkServlet '': initialization completed in 2 ms
+]]></system-err>
+  </testcase>
+</testsuite>
